@@ -1,0 +1,177 @@
+/* G L O B A L S */
+
+*{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul, ol{
+	padding:0px;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+
+
+.topBar{
+	background:rgb(11, 139, 122);
+}
+
+.topBar a{
+	color:white;
+}
+
+/* B A C K   C O L O R */
+
+.backColor, .backColor a{
+	background:rgb(11, 139, 122);
+	color:white;
+}
+
+/* E R R O R    4 0 4 */
+
+.error404{
+	color:#323;
+}
+
+.error404 h1{
+	margin-top: -19px;
+}
+
+.backGroundBreadcrumb{
+	margin-bottom:0px;
+
+}
+
+
+.footer{
+    background:rgb(5, 114, 99);
+    padding:1rem 7%;
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box{
+    flex:1 1 25rem;
+    margin:2rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color:#fff;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.footer .box-container .box p{
+    font-size: 1.7rem;
+    color:#eee;
+    padding:1rem 0;
+}
+
+.footer .box-container .box a{
+    font-size: 1.7rem;
+    color:#eee;
+    padding:1rem 0;
+    display: block;
+}
+
+.footer .box-container .box a:hover{
+    color:rgb(111, 167, 154);
+}
+
+.footer .box-container .box p i{
+    padding-right: .5rem;
+    color:rgb(111, 167, 154);
+}
+
+.footer .credit{
+    font-size: 2rem;
+    text-align: center;
+    border-top: .2rem solid rgba(255,255,255,.7);
+    padding:2rem 1rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    color:#fff;
+}
+
+.footer .credit a{
+    color:rgb(89, 182, 89);
+}
+
+/* S I Z I N G - S I Z I N G - S I Z I N G */
+
+/* B I G    D E S K T O P */
+
+@media (min-width:1200px){
+
+	.col-lg-0{
+		display: none;
+	}
+
+	.error404 h1{
+		font-size:300px;
+		text-shadow:8px 8px 1px #dadada;
+	}
+
+}
+
+/* M E D I U M    D E S K T O P */
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.col-md-0{
+		display: none;
+	}
+
+	.error404 h1{
+		font-size:200px;
+		text-shadow:6px 6px 1px #dadada;
+	}
+
+}
+
+/* S M A L L    D E S K T O P */
+
+@media (max-width:991px) and (min-width:768px){
+
+	.col-sm-0{
+		display: none;
+	}
+
+	.error404 h1{
+		font-size:150px;
+		text-shadow:4px 4px 1px #dadada;
+	}
+
+	
+
+}
+
+/* E X T R A    S M A L L    D E S K T O P */
+
+@media (max-width:767px){
+
+	.col-xs-0{
+		display: none;
+	}
+
+	.error404 h1{
+		font-size:75px;
+		text-shadow:2px 2px 1px #dadada;
+	}
+
+	.banner{
+
+		display:none;
+	}
+
+}

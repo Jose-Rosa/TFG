@@ -1,0 +1,12 @@
+# ASI NO VEN NUESTRA LISTA
+
+# Reemplaza de manera oculta toda esa url por una amigable, con el $1 de manera interna se cambia
+
+Options All -Indexes
+
+# URL friendly
+
+RewriteEngine On 
+
+RewriteRule ^([-a-zA-Z0-9ñÑ_/]+)$ index.php?route=$1
+

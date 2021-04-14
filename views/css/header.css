@@ -1,0 +1,251 @@
+/* T O P */
+
+#top ul{
+	padding-top:8px;
+}
+
+#top ul li{
+	display:inline;
+	line-height:30px;
+	margin:0px 5px;
+	color:white;
+}
+
+.socialMedia ul li a i{
+	font-size:18px;
+	margin:0 1px;
+}
+
+.registry ul{
+	text-align: right;
+	font-size:12px;
+}
+
+/* H E A D E R */
+
+header #logo img{
+
+    padding:20px 60px;
+    padding-left:0px;
+}
+
+
+header #buttonCategories{
+	margin:20px 0;
+}
+
+header #buttonCategories p{
+	line-height:40px;
+	margin-bottom:0px;
+}
+
+header #buttonCategories p span{
+	cursor: pointer;
+}
+
+header #searcher{
+	margin:20px 0;
+}
+
+header #searcher input{
+	padding:19px;
+	border-radius:0;
+}
+
+header #searcher button{
+	padding:9px;
+	border:1px solid silver;
+	border-radius:0;
+}
+
+header #carrito{
+	margin:20px 0;
+}
+
+header #carrito button{
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:0;
+}
+
+header #carrito p{
+	padding:2px;
+	padding-left:60px;
+	border:1px solid #aaa;
+	font-size:12px;
+}
+
+header #categories{
+	display:none;
+	margin-top:-10px;
+	position: relative;
+	padding-bottom:20px;
+}
+
+header #categories h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+}
+
+header #categories hr{
+	border:1px solid rgba(255,255,255,.3);
+}
+
+/* M O D A L   W I N D O W */
+
+.modalTitle{
+
+	padding:5px 0px;
+
+}
+
+.modalTitle h3{
+
+	text-align: center;
+	margin-top: -5px;
+	padding: 15px 0px;
+	border-radius: 5px 5px 0px 0px;
+	
+}
+
+.modalForm .close{
+	position:absolute;
+	right:27px;
+	top:15px;
+	color:white;
+
+}
+
+.modalForm .facebook, .modalForm .google{
+	cursor:pointer;
+}
+
+.modalForm .facebook p{
+	background:#46639f;
+	color:white;
+	text-align:center;
+	line-height:40px;
+	padding:8px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:20px;
+
+}
+
+.modalForm .google p{
+	background:#d6513e;
+	color:white;
+	text-align:center;
+	line-height:40px;
+	padding:8px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:20px;
+
+}
+
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logo img{
+		padding:20px 60px;
+		padding-left:0px;
+	}
+
+	header #carrito{
+		padding-left:100px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logo img{
+		padding:25px 60px;
+		padding-left:0px;
+	}
+
+	header #carrito{
+		padding-left:70px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	
+
+	header #logo img{
+		padding:30px 0px;
+	}
+
+	header #carrito{
+		padding-left:55px;
+	}
+
+	header #carrito p{
+		display:none;
+	}
+
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	
+
+	#top ul{
+		text-align: center;
+	}
+
+	#top #registry{
+		border-top:1px solid #222;
+	}
+	
+	
+
+	header #logo img{
+		padding:30px;
+		padding-bottom:10px;
+	}
+
+	header #categories{
+		margin-bottom:10px;
+	}
+
+	header #searcher{
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		margin:0px;
+	}
+	
+}
